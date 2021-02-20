@@ -1,6 +1,6 @@
 # REACT WEATHER APP
 A web app which uses openweather api to show the weather conditions of the city entered by the user.
-The frontend is implemented using reactjs
+The frontend of this project is implemented using reactjs.
 
 ## Getting Started with Create React App
 
