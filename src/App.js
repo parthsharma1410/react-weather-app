@@ -1,6 +1,5 @@
 import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
 import Titles from "./components/Titles";
 import Form from "./components/Forms";
 import Weather from "./components/Weather";
@@ -47,9 +46,7 @@ class App extends React.Component {
       <div>
         <div className="wrapper">
           <div className="main">
-            <div className="container">
-              <div className="row">
-                <div className="col-xs-5 title-container">
+                <div className="col-xs-5 title-container div1">
                   <Titles />
                 </div>
                 <div className="col-xs-7 form-container">
@@ -63,8 +60,6 @@ class App extends React.Component {
                     error={this.state.error}
                   />
                 </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
